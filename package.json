@@ -1,0 +1,29 @@
+{
+  "name": "testes-e2e-cypress-com-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "test:webkit": "cypress run --browser webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenHurJF/Testes-e2e-cypress-com-CI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenHurJF/Testes-e2e-cypress-com-CI/issues"
+  },
+  "homepage": "https://github.com/BenHurJF/Testes-e2e-cypress-com-CI#readme",
+  "devDependencies": {
+    "cypress": "^12.2.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "playwright-webkit": "^1.26.0"
+  }
+}
