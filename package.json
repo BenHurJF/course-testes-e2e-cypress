@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/BenHurJF/Testes-e2e-cypress-com-CI#readme",
   "devDependencies": {
-    "cypress": "^12.2.0",
+    "cypress": "^12.5.1",
     "cypress-mailosaur": "^2.13.0",
     "eslint": "^8.31.0",
     "eslint-plugin-cypress": "^2.12.1",
