@@ -22,8 +22,10 @@
   "homepage": "https://github.com/BenHurJF/Testes-e2e-cypress-com-CI#readme",
   "devDependencies": {
     "cypress": "^12.2.0",
+    "cypress-mailosaur": "^2.13.0",
     "eslint": "^8.31.0",
     "eslint-plugin-cypress": "^2.12.1",
+    "faker-br": "^0.4.1",
     "playwright-webkit": "^1.26.0"
   }
 }
