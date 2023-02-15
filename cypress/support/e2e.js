@@ -14,9 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands';
-
 import 'cypress-mailosaur';
+import 'faker-br';
+
+import './commands';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
