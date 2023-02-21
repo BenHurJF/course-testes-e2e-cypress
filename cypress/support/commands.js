@@ -11,7 +11,13 @@ Cypress.Commands.add('preencheSubmeteFormulario', (email, senha) => {
     cy.get(locators.login.confirmarCodigo).should('be.visible');
 });
 
-Cypress.Commands.add('login', () => {
-    cy.visit('/signin');
-    cy.get(locators.login)
+Cypress.Commands.add('login', (
+    email = Cypress.env('USER_EMAIL'), 
+    password = Cypress.env('USER_PASSWORD')
+    ) => {
+    cy.visit('/login');
+    cy.get(locators.login.email).type(email, {force: true});
+    cy.get(locators.login.senha).type(password, {force: true, log: false});
+    cy.contains('button', 'Login').click();
+    cy.contains('h1', 'Your Notes', {timeout: 10000}).should('be.visible');
 });

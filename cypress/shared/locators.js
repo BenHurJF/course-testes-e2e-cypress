@@ -3,8 +3,11 @@ const locators = Object.freeze({
         email: '#email',
         senha: '#password',
         confirmarSenha: '#confirmPassword',
-        confirmarCodigo: '#confirmationCode'
+        confirmarCodigo: '#confirmationCode',
     },
+    homePage: {
+        title: '',
+    }
 });
 
 export default locators;

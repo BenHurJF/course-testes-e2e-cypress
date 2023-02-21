@@ -2,7 +2,7 @@
 import faker from 'faker-br';
 
 describe('Cenários de testes referente ao Signup', () => {
-  it.only('Cadastro usando o código de confirmação enviado por e-mail com Sucesso', () => {
+  it('Cadastro usando o código de confirmação enviado por e-mail com Sucesso', () => {
     const email = `${faker.random.uuid()}@${Cypress.env('MAILOSAUR_SERVER_ID')}.mailosaur.net`;
     const senha = Cypress.env('USER_PASSWORD');
 
