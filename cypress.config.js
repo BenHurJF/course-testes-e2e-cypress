@@ -7,6 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     testIsolation: true,
+    experimentalSessionSupport: true,
     experimentalWebKitSupport: true,
     video: true,
     screenshotOnRunFailure: false
