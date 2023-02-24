@@ -5,8 +5,9 @@ const locators = Object.freeze({
         confirmarSenha: '#confirmPassword',
         confirmarCodigo: '#confirmationCode',
     },
-    homePage: {
-        title: '',
+    criarNota: {
+        descricao: '#content',
+        upload: '#file',
     }
 });
 

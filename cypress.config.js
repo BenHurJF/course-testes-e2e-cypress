@@ -7,7 +7,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     testIsolation: true,
-    experimentalSessionSupport: true,
+    defaultCommandTimeout: 10000,
     experimentalWebKitSupport: true,
     video: true,
     screenshotOnRunFailure: false
